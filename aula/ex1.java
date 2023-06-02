@@ -4,7 +4,7 @@ import java.lang.Math;
 class Ex1 {
 
     public static int checkIfExists(int a, int b, int c) {
-        if (a > (b - c)) & (a < (b + c)) {
+        if (a > (b - c)) && (a < (b + c)) {
             return 0;
         } else {
             return 1;
@@ -35,7 +35,7 @@ class Ex1 {
         b = calculateCoordDistance(x1, y1, x3, y3);
         c = calculateCoordDistance(x2, y2, x3, y3);
 
-        System.out.println(a, b, c);
+        System.out.printf("%f %f %f", a, b, c);
 
 	}
 }
